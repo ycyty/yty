@@ -1,0 +1,35 @@
+/**index.wxss**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.myphoto{
+    top:0px;
+    width:750rpx;
+    height:400rpx;
+}
+text{
+ 
+  font-weight:bold;
+  font-size:32rpx;
+  color:white;
+}
+
+.image-swiper{
+  height: 450rpx;
+  width: 100%;
+
+}
+
+.hot .hot-image{
+  height: 385rpx;
+  width: 100%;
+}
+.divider {
+  width: 100%;
+  height: 18rpx;
+  background: #f0ede2;
+}

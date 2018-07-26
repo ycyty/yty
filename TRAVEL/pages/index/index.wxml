@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="section">
+    <!--顶层图片-->
+    <image class="myphoto"   src="/images/MyIcon.jpg"></image>
+    <!--城市选择-->
+    <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+       <view class="picker" style='font-weight:bold; font-size:40rpx; color:white;' data-id="{{e.detail.value}}">
+      当前选择城市：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}} ▼
+       </view>
+    </picker>
+  </view>
+
+<view class="divider"></view>
+ 
+  <text style='font-weight:bold; font-size:40rpx;'>发现美食：</text>
+  <!--swiper添加滚动图片-->
+  <swiper class='image-swiper' indicator-dots='{{true}}'
+   current='{{currentIndex}}'
+  >
+    <swiper-item class='city' wx:for="{{hotcity}}" wx:key="this">
+    <view class='hot'>
+        <image class='hot-image' src='{{item.imagePath}}'></image>
+        <text>{{item.name}}</text>
+    </view>
+    </swiper-item>
+  </swiper>
+<view class="divider"></view>
+</view>

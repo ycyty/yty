@@ -1,0 +1,17 @@
+<!--pages/personal/personal.wxml-->
+<view class="persional-header">
+    <view class="edit">
+      <text bindtap="edit">编辑</text>
+    </view>
+  <view class="info">
+      <view class="header-img">
+        <image src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="name">
+        <view class="username">
+        <text>{{userInfo.nickName}}</text>
+        </view>
+        <text class="tel" style='color:white;'>{{userInfo.tel}}</text>
+      </view>
+  </view>
+</view>

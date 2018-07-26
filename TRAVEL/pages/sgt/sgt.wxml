@@ -1,0 +1,27 @@
+ <!--pages/sgt/sgt.wxml-->
+<view class="top">
+  <view class="img">
+    <image src="/images/destination/美食.jpg"><!--srct--></image>
+  </view>
+</view>
+
+<view class="divider"></view>
+
+  <view class="hot-view hot">
+    <view class="title">
+    <text></text>
+    <text>著名美食菜谱</text>
+    <text></text>
+    </view>
+
+ 
+    <view class="img-box">
+      <view class="img" wx:for="{{hotView}}" wx:key="{{index}}" bindtap="enterDetail" data-id="{{item.id}}">
+      <image src="{{item.imgUrl}}"></image>
+      <text>{{item.title}}</text>
+      </view>
+    </view>
+  
+  <view class="divider"></view>
+</view>
+ 

@@ -1,0 +1,32 @@
+<view class="top">
+  <!--顶层图片-->
+  <view class="img">
+    <image src="{{url}}"><!--srct--></image>
+  </view>
+</view>
+
+<view class="divider"></view>
+<!--菜谱-->
+<view class="hot-view hot">
+<view class="title">
+    <text></text>
+    <text>美食菜谱</text>
+    <text></text>
+</view>
+<view class="text">{{text1}}</view>
+<view class="text">{{text2}}</view>
+<view class="text">{{text3}}</view>
+</view>
+
+
+<view class="divider"></view>
+
+<!--美食店铺推荐-->
+<view class="hot-view hot">
+<view class="title">
+    <text></text>
+    <text>美食店铺推荐</text>
+    <text></text>
+</view>
+<view class="text">{{text}}</view>
+</view>

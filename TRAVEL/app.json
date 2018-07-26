@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fd/fd",
+    "pages/sgt/sgt",
+    "pages/personal/personal",
+    "pages/logs/logs",
+    "pages/personal/modify-info/modify-info",
+    "pages/menu/menu"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4abdcc",
+    "navigationBarTitleText": "AItravel",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/主页0.png",
+        "selectedIconPath": "images/主页1.png"
+      },
+      {
+        "pagePath": "pages/fd/fd",
+        "text": "美食",
+        "iconPath": "images/美食0.png",
+        "selectedIconPath": "images/美食1.png"
+      },
+      {
+        "pagePath": "pages/sgt/sgt",
+        "text": "菜谱",
+        "iconPath": "images/菜谱0.png",
+        "selectedIconPath": "images/菜谱1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "images/我的0.png",
+        "selectedIconPath": "images/我的1.png"
+      }
+    ]
+  }
+}
